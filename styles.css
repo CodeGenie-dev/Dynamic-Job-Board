@@ -1,0 +1,81 @@
+h5 {
+    font-weight: 300;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: whitesmoke;
+}
+.row {
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    background-color: #fafafa;
+    margin: 10px auto;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.logo-section {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 48px;
+    height: 48px;
+}
+.left-section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}         
+.mid-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    height: 50%;            
+    width: 35%;
+}
+.right-mid-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    font-size: 10px;
+}
+.right-section {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company, .position {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.location {
+    font-size: 12px;
+}
+.tag {
+    margin: 5px;
+    border: 1px solid grey;
+    padding: 3px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.apply {
+    background-color: rgb(255, 71, 66);
+    color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.apply:hover {
+    opacity: .75;
+}
